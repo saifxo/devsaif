@@ -8,6 +8,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import resume from "../../../public/Saif_CV.pdf";
+import resume2 from "../../../public/cv2.pdf";
 
 export default function Hero() {
   const MotionImage = motion(Image);
@@ -32,7 +33,7 @@ export default function Hero() {
         <div className="mb-16 flex flex-col gap-4 md:flex-row xl:items-center">
           <CustomBtn txt="Book a call" className="w-[150px]" href="/contact" />
           <Link
-            href={resume}
+            href={resume2}
             target="_blank"
             rel="noopener noreferrer"
             download="Saif_CV.pdf"
