@@ -7,8 +7,8 @@ import profImg from "../../../public/final.png";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import resume from "../../../public/Saif_CV.pdf";
-import resume2 from "../../../public/cv2.pdf";
+import resume from "../../../public/resumeUpdated.pdf";
+import resume2 from "../../../public/resumeUpdated.pdf";
 
 export default function Hero() {
   const MotionImage = motion(Image);
